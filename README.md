@@ -1,18 +1,18 @@
 dalek-internal-driver
 =========================
 
-> DalekJS internal driver helper module
+> DalekJS internal driver module
 
 [![Build Status](https://travis-ci.org/dalekjs/dalek-internal-driver.png)](https://travis-ci.org/dalekjs/dalek-internal-driver)
 [![Build Status](https://drone.io/github.com/dalekjs/dalek-internal-driver/status.png)](https://drone.io/github.com/dalekjs/dalek-internal-driver/latest)
 [![Dependency Status](https://david-dm.org/dalekjs/dalek-internal-driver.png)](https://david-dm.org/dalekjs/dalek-internal-driver)
 [![devDependency Status](https://david-dm.org/dalekjs/dalek-internal-driver/dev-status.png)](https://david-dm.org/dalekjs/dalek-internal-driver#info=devDependencies)
 [![NPM version](https://badge.fury.io/js/dalek-internal-driver.png)](http://badge.fury.io/js/dalek-internal-driver)
+[![Coverage](http://dalekjs.com/package/dalek-internal-driver/master/coverage/coverage.png)](http://dalekjs.com/package/dalek-internal-driver/master/coverage/index.html)
+[![unstable](https://rawgithub.com/hughsk/stability-badges/master/dist/unstable.svg)](http://github.com/hughsk/stability-badges)
 
-## Warning
-
-This module is only used internally by [DalekJS](//github.com/dalekjs/dalek).
-It provides a helper for 3rd party drivers used by DalekJS.
+[![NPM](https://nodei.co/npm/dalek-internal-driver.png)](https://nodei.co/npm/dalek-internal-driver/)
+[![NPM](https://nodei.co/npm-dl/dalek-internal-driver.png)](https://nodei.co/npm/dalek-internal-driver/)
 
 ## Ressources
 
@@ -23,6 +23,11 @@ It provides a helper for 3rd party drivers used by DalekJS.
 [User Docs](http://dalekjs.com/docs/master/driver.html) -
 [Homepage](http://dalekjs.com) -
 [Twitter](http://twitter.com/dalekjs)
+
+## Docs
+
+This module is only used internally by [DalekJS](//github.com/dalekjs/dalek).
+It provides a helper for 3rd party drivers used by DalekJS.
 
 ## Help Is Just A Click Away
 
@@ -57,7 +62,7 @@ requests that implement the feature).
 other, better channels for seeking assistance, like StackOverflow and the
 Google Groups mailing list.
 
-![DalekJS](https://raw.github.com/dalekjs/dalekjs.com/master/img/logo.jpg)
+![DalekJS](https://raw.github.com/dalekjs/dalekjs.com/master/img/logo.png)
 
 ## Legal FooBar (MIT License)
 
