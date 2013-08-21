@@ -286,17 +286,25 @@ module.exports = function(grunt) {
 
     grunt.file.write('package.json', JSON.stringify(canaryPkg, true, 2));
 
+    // replace default includes with canary ones
+    var indexContents = grunt.file.read('index.js');
+    var oldContents = grunt.file.read('index.js');
+    indexContents = indexContents.replace('dalek-internal-testsuite', 'dalek-internal-testsuite-canary');
+    grunt.file.write('index.js', indexContents);
+
     var npm = require('npm');
     npm.load({}, function() {
       npm.registry.adduser(process.env.npmuser, process.env.npmpass, process.env.npmmail, function(err) {
         if (err) {
           grunt.log.error(err);
           grunt.file.write('package.json', JSON.stringify(pkg, true, 2));
+          grunt.file.write('index.js', oldContents);
           done(false);
         } else {
           npm.config.set('email', process.env.npmmail, 'user');
           npm.commands.publish([], function(err) {
             grunt.file.write('package.json', JSON.stringify(pkg, true, 2));
+            grunt.file.write('index.js', oldContents);
             grunt.log.ok('Published canary build to registry');
             done(!err);
           });
