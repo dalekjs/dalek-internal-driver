@@ -1,5 +1,5 @@
 /* jshint camelcase: false */
-module.exports = function(grunt) {
+module.exports = function (grunt) {
   'use strict';
 
   // check task runtime
@@ -140,7 +140,8 @@ module.exports = function(grunt) {
         createTag: true,
         tagName: '%VERSION%',
         tagMessage: '%VERSION%',
-        push: true
+        push: true,
+        pushTo: 'git@github.com:dalekjs/dalek-internal-driver.git'
       }
     },
 
