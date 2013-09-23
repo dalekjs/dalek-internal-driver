@@ -211,7 +211,7 @@ Driver.prototype = {
           binary: binary,
           type: browserType
         };
-      }     
+      }
     }
     
     return browserConfiguration;
