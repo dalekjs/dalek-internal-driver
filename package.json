@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "async": "~0.2.9",
-    "dalek-internal-testsuite": "~0.0.2"
+    "dalek-internal-testsuite": "~0.0.3"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
