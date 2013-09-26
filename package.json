@@ -1,6 +1,6 @@
 {
   "name": "dalek-internal-driver",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "DalekJS internal driver helper library",
   "homepage": "http://dalekjs.com",
   "main": "./index.js",
